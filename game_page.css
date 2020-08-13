@@ -130,6 +130,10 @@ a:visited {
   .btn-easy {
     width: 10vw;
   }
+  .play_button {
+    width: 40%;
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -147,6 +151,10 @@ a:visited {
   }
   .start_button {
     width: 20%;
+  }
+  .play_button {
+    width: 50%;
+    font-size: 1.25rem;
   }
 }
 
