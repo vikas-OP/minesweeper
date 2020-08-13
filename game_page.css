@@ -1,9 +1,8 @@
+body {
+  background: linear-gradient(to right, #23074d, #cc5333) center/cover no-repeat;
+  width: 100vw;
+}
 .whole {
-  background: linear-gradient(
-    to right,
-    rgba(20, 33, 61, 0.9),
-    rgba(20, 33, 61, 0.3)
-  );
   min-height: 100vh;
   width: 95vw;
   position: relative;
@@ -113,4 +112,59 @@ a:visited {
 }
 .fas {
   color: white;
+}
+
+@media screen and (max-width: 1050px) {
+  .grid {
+    width: 80vw;
+  }
+  .btn-hard {
+    width: 5vw;
+  }
+  .btn-medium {
+    width: 6.666vw;
+  }
+  .btn-easy {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .grid {
+    width: 90vw;
+  }
+  .btn-hard {
+    width: 5.625vw;
+  }
+  .btn-medium {
+    width: 7.5vw;
+  }
+  .btn-easy {
+    width: 11.25vw;
+  }
+  .start_button {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .grid {
+    width: 95vw;
+    padding-left: 0px;
+  }
+  .btn-hard {
+    width: 5.937vw;
+  }
+  .btn-medium {
+    width: 7.91vw;
+  }
+  .btn-easy {
+    width: 11.875vw;
+  }
+  .instructions {
+    font-size: 0.7rem;
+  }
+  .start_button {
+    width: 25%;
+  }
 }
