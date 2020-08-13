@@ -1,0 +1,115 @@
+.whole {
+  background: linear-gradient(
+    to right,
+    rgba(20, 33, 61, 0.9),
+    rgba(20, 33, 61, 0.3)
+  );
+  min-height: 100vh;
+  width: 95vw;
+  position: relative;
+}
+.start {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+.start_button {
+  width: 10%;
+  height: 90%;
+  background: #ffd166;
+  border-radius: 10px;
+}
+.instructions {
+  background: black;
+  display: flex;
+  color: white;
+  height: 7vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  z-index: -1;
+}
+.level {
+  text-transform: capitalize;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 64vw;
+  margin: 0px auto;
+  min-height: 85vh;
+  padding: 5px 20px;
+  z-index: -1;
+}
+.btn-easy {
+  height: 10.625vh;
+  width: 8vw;
+  margin: 0px;
+  border: 1px solid black;
+  background: #ffcdb2;
+  font-weight: bold;
+}
+.btn-medium {
+  height: calc(7vh);
+  width: calc(5.33vw);
+  margin: 0px;
+  border: 1px solid black;
+  background: #ffcdb2;
+  font-weight: bold;
+}
+.btn-hard {
+  height: calc(5.5vh);
+  width: calc(4vw);
+  margin: 0px;
+  border: 1px solid black;
+  background: #ffcdb2;
+  font-weight: bold;
+}
+.modal {
+  z-index: 1;
+  min-height: 50vh;
+  width: 60vw;
+  position: absolute;
+  background: #2b2d42;
+  color: white;
+  top: 25%;
+  left: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  border: red solid 3px;
+}
+.modal_header,
+.modal_score,
+.modal_high_score {
+  justify-self: center;
+  font-weight: bolder;
+}
+.play_button {
+  width: 20%;
+  height: 20%;
+  font-size: 2rem;
+  border-radius: 15px;
+  margin-bottom: 10%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.play_button:hover {
+  background: #457b9d;
+}
+.fas {
+  color: white;
+}

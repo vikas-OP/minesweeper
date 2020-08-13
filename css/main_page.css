@@ -1,0 +1,44 @@
+.whole {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(20, 33, 61, 0.9),
+      rgba(20, 33, 61, 0.4)
+    ),
+    url("../images/main_page_background.jpg") center/cover no-repeat fixed;
+}
+.main_page_header {
+  color: #ef233c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  height: 20vh;
+  font-size: 3rem;
+}
+.main_page_container {
+  display: flex;
+  height: 80vh;
+  width: 95vw;
+  align-items: center;
+  justify-content: center;
+}
+.play_button {
+  width: 20%;
+  height: 20%;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.play_button:hover {
+  background: #457b9d;
+}

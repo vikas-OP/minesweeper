@@ -1,0 +1,63 @@
+.whole {
+  height: 100vh;
+  width: 95vw;
+  background: linear-gradient(
+      to bottom,
+      rgba(20, 33, 61, 0.9),
+      rgba(20, 33, 61, 0.6)
+    ),
+    url("../images/difficulty_page.jpg") center/cover no-repeat fixed;
+}
+.difficult-head {
+  height: 15vh;
+  width: 95vw;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  color: #f7fff7;
+}
+.main-sec {
+  width: 95vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btns {
+  width: 20%;
+  height: 20%;
+  background: white;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+.easy {
+  border: 3px solid #7ae582;
+}
+.medium {
+  border: 3px solid #f5dd90;
+}
+.hard {
+  border: 3px solid #ff5e5b;
+}
+.easy:hover {
+  color: white;
+  background: #7ae582;
+}
+.medium:hover {
+  color: white;
+  background: #f5dd90;
+}
+.hard:hover {
+  color: white;
+  background: #ff5e5b;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
