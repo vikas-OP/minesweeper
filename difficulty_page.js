@@ -22,13 +22,13 @@ whole_div.append(head_div, sect_div);
 document.body.append(whole_div);
 document.querySelector(".easy").addEventListener("click", () => {
   localStorage.setItem("level", "easy");
-  window.location.href = "../html/game_page.html";
+  window.location.href = "./game_page.html";
 });
 document.querySelector(".medium").addEventListener("click", () => {
   localStorage.setItem("level", "medium");
-  window.location.href = "../html/game_page.html";
+  window.location.href = "./game_page.html";
 });
 document.querySelector(".hard").addEventListener("click", () => {
   localStorage.setItem("level", "hard");
-  window.location.href = "../html/game_page.html";
+  window.location.href = "./game_page.html";
 });

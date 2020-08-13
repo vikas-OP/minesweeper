@@ -6,7 +6,7 @@
       rgba(20, 33, 61, 0.9),
       rgba(20, 33, 61, 0.4)
     ),
-    url("../images/main_page_background.jpg") center/cover no-repeat fixed;
+    url("./images/main_page_background.jpg") center/cover no-repeat fixed;
 }
 .main_page_header {
   color: #ef233c;

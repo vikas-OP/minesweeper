@@ -6,7 +6,7 @@
       rgba(20, 33, 61, 0.9),
       rgba(20, 33, 61, 0.6)
     ),
-    url("../images/difficulty_page.jpg") center/cover no-repeat fixed;
+    url("./images/difficulty_page.jpg") center/cover no-repeat fixed;
 }
 .difficult-head {
   height: 15vh;
