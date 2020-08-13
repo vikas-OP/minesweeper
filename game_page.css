@@ -1,3 +1,6 @@
+* {
+  font-family: "Lobster", cursive;
+}
 body {
   background: linear-gradient(to right, #23074d, #cc5333) center/cover no-repeat;
   width: 100vw;
