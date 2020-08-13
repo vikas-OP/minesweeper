@@ -3,7 +3,7 @@ whole_div.setAttribute("class", "whole");
 let head_div = document.createElement("header");
 head_div.setAttribute("class", "difficult-head");
 let h1 = document.createElement("h1");
-h1.innerText = "CHOOSE DIFFICULTY LEVEL";
+h1.innerHTML = `CHOOSE  &nbsp;&nbsp;DIFFICULTY  &nbsp;&nbsp;LEVEL`;
 head_div.append(h1);
 let sect_div = document.createElement("section");
 sect_div.setAttribute("class", "main-sec");

@@ -1,12 +1,14 @@
-.whole {
-  width: 100vw;
-  height: 100vh;
+body {
   background: linear-gradient(
       to bottom,
       rgba(20, 33, 61, 0.9),
-      rgba(20, 33, 61, 0.6)
+      rgba(20, 33, 61, 0.1)
     ),
     url("./images/main_page_background.jpg") center/cover no-repeat;
+}
+.whole {
+  width: 100vw;
+  height: 100vh;
   font-family: "Lobster", cursive;
 }
 .main_page_header {
@@ -30,7 +32,7 @@
   height: 20%;
   font-size: 2rem;
   border-radius: 15px;
-  border: 3px solid #457b9d;
+  border: 5px solid #457b9d;
 }
 a {
   text-decoration: none;
@@ -44,7 +46,7 @@ a:visited {
 }
 .play_button:hover {
   background: #457b9d;
-  border: 3px solid black;
+  border: 5px solid black;
   color: white;
 }
 span {

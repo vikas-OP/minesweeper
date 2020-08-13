@@ -1,12 +1,21 @@
-.whole {
-  height: 100vh;
-  width: 95vw;
+body {
   background: linear-gradient(
       to bottom,
       rgba(20, 33, 61, 0.9),
-      rgba(20, 33, 61, 0.6)
+      rgba(20, 33, 61, 0.1)
     ),
     url("./images/difficulty_page.jpg") center/cover no-repeat fixed;
+}
+.whole {
+  height: 100vh;
+  width: 95vw;
+  font-family: "Lobster", cursive;
+}
+h1 {
+  font-size: 3rem;
+}
+span {
+  font-family: "Lobster", cursive;
 }
 .difficult-head {
   height: 15vh;
@@ -22,6 +31,7 @@
   height: 85vh;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .btns {
@@ -30,27 +40,31 @@
   background: white;
   font-size: 2rem;
   border-radius: 15px;
+  font-family: "Lobster", cursive;
 }
 .easy {
-  border: 3px solid #7ae582;
+  border: 5px solid #7ae582;
 }
 .medium {
-  border: 3px solid #f5dd90;
+  border: 5px solid #f5dd90;
 }
 .hard {
-  border: 3px solid #ff5e5b;
+  border: 5px solid #ff5e5b;
 }
 .easy:hover {
   color: white;
   background: #7ae582;
+  border: 5px solid black;
 }
 .medium:hover {
   color: white;
   background: #f5dd90;
+  border: 5px solid black;
 }
 .hard:hover {
   color: white;
   background: #ff5e5b;
+  border: 5px solid black;
 }
 a {
   text-decoration: none;
@@ -60,4 +74,32 @@ a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 1500px) {
+  .btns {
+    height: 15%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-sec {
+    justify-content: center;
+    align-items: center;
+  }
+  .btns {
+    height: 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.25rem;
+  }
 }
