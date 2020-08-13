@@ -7,6 +7,7 @@
   min-height: 100vh;
   width: 95vw;
   position: relative;
+  margin: 0px auto;
 }
 .start {
   display: flex;
