@@ -30,29 +30,17 @@ body {
 .play_button {
   width: 20%;
   height: 20%;
+  font-family: "Lobster", cursive;
+  font-weight: bolder;
   font-size: 2rem;
   border-radius: 15px;
   border: 5px solid #457b9d;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-a:active,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-  font-family: inherit;
 }
 .play_button:hover {
   background: #457b9d;
   border: 5px solid black;
   color: white;
 }
-span {
-  font-family: "Lobster", cursive;
-}
-
 @media screen and (max-width: 800px) {
   .main_page_header {
     font-size: 1.75rem;

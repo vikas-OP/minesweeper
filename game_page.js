@@ -206,11 +206,10 @@ function winGame() {
   let play_button = document.createElement("button");
   play_button.setAttribute("type", "button");
   play_button.setAttribute("class", "play_button");
-  let main_anchor = document.createElement("a");
-  main_anchor.setAttribute("href", "./difficulty_page.html");
-  main_anchor.innerText = "Play";
-  play_button.append(main_anchor);
-
+  play_button.innerText = "Play again!";
+  play_button.addEventListener("click", () => {
+    window.location.href = "./difficulty_page.html";
+  });
   modal_header.append(heading);
   modal.append(modal_header, modal_score, modal_high_score, play_button);
   whole_div.append(modal);
@@ -255,11 +254,10 @@ function endGame() {
   let play_button = document.createElement("button");
   play_button.setAttribute("type", "button");
   play_button.setAttribute("class", "play_button");
-  let main_anchor = document.createElement("a");
-  main_anchor.setAttribute("href", "./difficulty_page.html");
-  main_anchor.innerText = "Play";
-  play_button.append(main_anchor);
-
+  play_button.innerText = "Play again!";
+  play_button.addEventListener("click", () => {
+    window.location.href = "./difficulty_page.html";
+  });
   modal_header.append(heading);
   modal.append(modal_header, modal_score, modal_high_score, play_button);
   whole_div.append(modal);

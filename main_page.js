@@ -8,15 +8,13 @@ main_page_container.setAttribute("class", "main_page_container");
 let play_button = document.createElement("button");
 play_button.setAttribute("type", "button");
 play_button.setAttribute("class", "play_button");
-let main_anchor = document.createElement("a");
-main_anchor.setAttribute("href", "./difficulty_page.html");
-let span = document.createElement("span");
-span.innerHTML = "Play";
-main_anchor.append(span);
-play_button.append(main_anchor);
+play_button.innerText = "Play!";
 main_page_container.append(play_button);
 main_page_whole.append(main_page_header, main_page_container);
 document.body.append(main_page_whole);
+play_button.addEventListener("click", () => {
+  window.location.href = "./difficulty_page.html";
+});
 //setting highest score
 localStorage.setItem("easyHighestScore", 0);
 localStorage.setItem("mediumHighestScore", 0);
